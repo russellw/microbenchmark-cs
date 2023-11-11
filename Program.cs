@@ -1,2 +1,5 @@
-﻿// See https://aka.ms/new-console-template for more information
-Console.WriteLine("Hello, World!");
+﻿using System.Diagnostics;
+
+var stopwatch = Stopwatch.StartNew();
+stopwatch.Stop();
+Console.WriteLine(stopwatch.Elapsed);
